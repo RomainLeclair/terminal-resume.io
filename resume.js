@@ -1,7 +1,7 @@
 // Store all executed commmands
 var cmd_list = [];
 var cmd_index = 0;
-var available_cmd = ["about", "education", "projects", "experience", "skills", "contact", "download", "help", "clear"];
+var available_cmd = ["about", "education", "Certificates", "experience", "skills", "contact", "download", "help", "clear"];
 
 // Get the input field
 var cmd = document.getElementById("command");
@@ -48,7 +48,7 @@ function run_command(){
         element = document.getElementById('error'); 
 
       if(input == 'download')
-        window.open('./resume.pdf', '_blank');
+        window.open('./Resume_LeclairRomain.docx.pdf', '_blank');
       else if(input == 'clear'){
         clear_console();
         return;
