@@ -48,7 +48,7 @@ function run_command(){
         element = document.getElementById('error'); 
 
       if(input == 'download')
-        window.open('./Resume_LeclairRomain.docx.pdf', '_blank');
+        window.open('./Resume.pdf', '_blank');
       else if(input == 'clear'){
         clear_console();
         return;
